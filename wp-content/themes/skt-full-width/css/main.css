@@ -10,7 +10,7 @@
 body {font-family:Arial; font-size:12px; color:#aeaeae; }
 .container {width:94.5%; margin:0; }
 #page {position:relative; z-index:999; margin:auto; }
-#wrapper {width:1000px; margin:0 auto; padding:0; position:relative; z-index:99999999; }
+#wrapper {margin:0 auto; padding:0; position:relative; z-index:99999999; }
 #content {padding:20px; word-wrap:break-word; -ms-word-wrap:break-word; background:url(../images/menu-bg.png); }
 .blog #content {padding-left:30px; }
 .clear{clear:both; }
@@ -19,7 +19,7 @@ a {color:#86c301; text-decoration:none; outline:none;}
 a:hover,a:focus,a:active {color:#eeeded; }
 /*----------- HEADER ------------*/
 .header{ width:248px; margin:0; padding:0; border-left:1px solid #1b1b1b; border-right:1px solid #1b1b1b; float:left; }
-.header .logo{ width:100%; margin:0; padding:60px 0 30px; background:url(../images/menu-bg.png); text-align:center; }
+.header .logo{ width:100%; margin:0; padding:60px 0 30px; background-color:#ffffff; opacity:0.7; text-align:center; }
 .header .logo h1.site-title a{font:700 45px 'Roboto Condensed', Arial; text-decoration:none; }
 
 /* NAVIGATION */

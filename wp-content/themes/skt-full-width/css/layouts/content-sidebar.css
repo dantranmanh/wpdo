@@ -7,11 +7,6 @@ Layout: Content-Sidebar
 	width: 72%;
 	float: left;
 }
-#secondary {
-	width: 25%;
-	float: right;
-}
-
 .nivo-caption{right:inherit; left:13%; text-align:left !important;}
 #site-nav ul {text-align:right;}
 #site-nav ul li:hover ul{left:inherit !important; right:248px !important;}
