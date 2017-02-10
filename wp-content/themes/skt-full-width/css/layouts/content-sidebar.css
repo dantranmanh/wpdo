@@ -4,8 +4,9 @@ Layout: Content-Sidebar
 */
 
 #primary {
-	width: 72%;
+	width: 60%;
 	float: left;
+	padding:7rem 0 0 11rem;
 }
 .nivo-caption{right:inherit; left:13%; text-align:left !important;}
 #site-nav ul {text-align:right;}
