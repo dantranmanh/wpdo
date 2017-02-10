@@ -43,7 +43,7 @@ function hook_custom_javascript(){?>
     $front_page = get_option('page_on_front');
 	$post_page = get_option('page_for_posts');
     ?>
-	<?php if( (is_front_page() || is_home()) && ($front_page == 0 && $post_page == 0) ){ ?>
+	<?php if(0 /* (is_front_page() || is_home()) && ($front_page == 0 && $post_page == 0) */ ){ ?>
 		<style type="text/css">
 		#wrapper{min-width:97% !important; width:97% !important; margin-left:3%;}
 		#secondary{float:left;}

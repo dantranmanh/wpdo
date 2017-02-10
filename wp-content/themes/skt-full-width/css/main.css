@@ -19,17 +19,17 @@ a {color:#86c301; text-decoration:none; outline:none;}
 a:hover,a:focus,a:active {color:#eeeded; }
 /*----------- HEADER ------------*/
 .header{ width:248px; margin:0; padding:0; border-left:1px solid #1b1b1b; border-right:1px solid #1b1b1b; float:left; }
-.header .logo{ width:100%; margin:0; padding:60px 0 30px; background-color:#ffffff; opacity:0.7; text-align:center; }
+.header .logo{ width:100%; margin:0; padding:0; background-color:#006699; text-align:center; }
 .header .logo h1.site-title a{font:700 45px 'Roboto Condensed', Arial; text-decoration:none; }
 
 /* NAVIGATION */
 /*.page-template-page-full-width-php #site-nav{display:none;}*/
 #site-nav{ width:100%; margin:0; padding:0 0 60px; background:url(../images/menu-bg.png); text-transform:uppercase; font:300 16px 'Roboto Condensed', Arial; }
 #site-nav ul{ margin:0; padding:0; }
-#site-nav ul li{ display:block; position:relative; list-style:none; border-top:1px #2c2d2e solid; border-bottom:1px #040506 solid; padding:0; line-height:normal; }
-#site-nav ul li a{background:url(../images/nav-icon.png) no-repeat 20px center; padding:6px 0 6px 49px; display:block; font-weight:300; color:#eeeded; text-decoration:none; }
-#site-nav ul li:hover, #site-nav li.current_page_item{background:url(../images/menu-hover.png); }
-#site-nav ul li a:hover, #site-nav li.current_page_item a{ text-decoration:none; background-image:url(../images/nav-icon-hover.png); color:#7bb303; }
+#site-nav ul li{ display:block; position:relative; list-style:none; padding:0; line-height:normal; }
+#site-nav ul li a{background-color:#ffffff; padding:6px 0 6px 49px; display:block; font-weight:300; color:#eeeded; text-decoration:none; }
+#site-nav ul li:hover, #site-nav li.current_page_item{background-color:#ffffff; }
+#site-nav ul li a:hover, #site-nav li.current_page_item a{ text-decoration:none; background-color:#ffffff; color:#7bb303; }
 /* ----------- Drop Down Menu ------- */
 .noBottomBorder{border-bottom:none !important; }
 .haschild{background:url(../images/menu_sub_icon.png) no-repeat center right; }
