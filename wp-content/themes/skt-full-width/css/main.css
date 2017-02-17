@@ -268,8 +268,10 @@ mark{background-color:transparent !important;}
 	#wrapper{width:90%; margin:0 auto;float:left; }
 	/*.container {width:456px; }*/
 	.main-navigation {top:0px; }
-	#primary {width:95%; float:left;  padding:7rem 0 0 5rem; }
-	#secondary {width:95%; float:left; }
+	.header {width:100%; }
+	#header-bottom-shape {margin-left:57px; }
+	#primary {width:58%; float:left;  padding:4rem 0 0 4rem; }
+	#secondary {width:30%; float:left; }
 	.pagination {margin-left:-50px; }
 	.site-title a {font-size:x-large; }
 	.site-description {font-size:x-small; }
