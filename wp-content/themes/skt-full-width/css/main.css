@@ -11,7 +11,7 @@ body {font-family:Arial; font-size:12px; color:#aeaeae; }
 .container {width:94.5%; margin:0; }
 #page {position:relative; z-index:999; margin:auto; }
 #wrapper {margin:0 auto; padding:0; position:relative; z-index:99999999; }
-#content {padding:20px; word-wrap:break-word; -ms-word-wrap:break-word; background-color:#006a39; opacity:0.6; border-radius:6px;border:solid 1px #eb891a;color: gold; font-size: 15px; }
+#content {padding:20px; word-wrap:break-word; -ms-word-wrap:break-word; background-color:#006a39; opacity:0.9; border-radius:6px;border:solid 1px #eb891a;color: gold; font-size: 15px; }
 .blog #content {padding-left:30px; }
 .clear{clear:both; }
 /* Links------------------------------------------------- */
