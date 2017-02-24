@@ -209,13 +209,7 @@ class Options_Framework_Admin {
                     <div class="inside">
 						<p><a target="_blank" href="<?php echo esc_url(SKT_THEME_URL); ?>"><img style="max-width:100%" src="<?php echo get_template_directory_uri()?>/images/sktskill.jpg"></a></p>
                     </div>
-                </div>
-                <div class="postbox">
-                    <h3 class="hndle"><span>Buy PRO version</span></h3>
-                    <div class="inside">
-                        <p><em><a href="<?php echo esc_url(SKT_THEME_URL_DIRECT); ?>" target="_blank">Click here to check PRO version</a></em></p>
-                    </div>
-                </div>
+                </div>               
                 <div class="postbox">
                     <h3 class="hndle"><span>Support</span></h3>
                     <div class="inside">

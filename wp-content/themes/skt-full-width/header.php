@@ -89,11 +89,6 @@ $post_page = get_option('page_for_posts');
                        <?php wp_nav_menu( array('theme_location'  => 'primary' ) ); ?>
                      </nav> 
                 </div><!-- site-nav -->
-                <div class="header-bottom">
-                    <div id="header-bottom-shape">
-                    </div><!-- header-bottom-shape2 -->
-                </div><!-- header-bottom -->
-                    
             </div><!-- header -->
         </div><!-- secondary -->
           
