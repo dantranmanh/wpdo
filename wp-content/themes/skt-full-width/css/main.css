@@ -24,7 +24,7 @@ a:hover,a:focus,a:active {color:#eeeded; }
 
 /* NAVIGATION */
 /*.page-template-page-full-width-php #site-nav{display:none;}*/
-#site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; text-transform:uppercase; font:300 16px 'Tahoma', Arial; }
+#site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; text-transform:uppercase; font:300 25px 'Tahoma', Arial; }
 #site-nav ul{ margin:0; padding:0; }
 #site-nav ul li{ display:block; position:relative; list-style:none; padding:0; line-height:normal; }
 #site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; font-weight:900; color:#eeeded; text-decoration:none; }
@@ -273,8 +273,7 @@ mark{background-color:transparent !important;}
 	#primary {width:58%; float:left;  padding:4rem 0 0 4rem; }
 	#secondary {width:30%; float:left; }
 	.pagination {margin-left:-50px; }
-	.site-title a {font-size:x-large; }
-	.site-description {font-size:x-small; }
+	.site-title a {font-size:x-large; }	
 	#primary-home {padding-left:88px; }
 	.page-template-page-full-width-php #secondary .widget,.home #secondary .widget {width:456px; }
 	#colophon #footertext {float:left; }
@@ -296,8 +295,7 @@ mark{background-color:transparent !important;}
 	.header{ margin:0 auto;}
 	#secondary .widget {width:95%; }
 	.main-navigation {margin-top:30px; }
-	.site-title a {font-size:x-large; }
-	.site-description {font-size:x-small; }
+	.site-title a {font-size:x-large; }	
 	#primary-home {padding-left:30px; }
 	.page-template-page-full-width-php #secondary .widget,.home #secondary .widget {width:304px; }
 	#colophon #footertext {float:left; }

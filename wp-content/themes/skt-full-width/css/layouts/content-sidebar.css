@@ -15,4 +15,5 @@ Layout: Content-Sidebar
 #site-nav ul li a{background-position:220px center !important; padding:6px 49px 6px 20px !important;}
 .haschild{background:url(../../images/menu_sub_icon_rtl.png) no-repeat left center !important; }
 #site-nav ul li:hover ul li a{background-position:160px center !important; padding-right:30px !important; padding-left:10px !important;}
-#nav{ font-family: 'Open Sans Condensed', sans-serif;}
+#nav, #secondary{ font-family: 'Open Sans Condensed', sans-serif;}
+.site-description {font-size:20px; font-style:italic;}

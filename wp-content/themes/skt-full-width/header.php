@@ -80,7 +80,7 @@ $post_page = get_option('page_for_posts');
 							<?php bloginfo( 'name' ); ?>
                         <?php } ?>
                     </a></h1>
-                    <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+                    <div class="site-description"><?php bloginfo( 'description' ); ?></div>
                 </div>
               
                 <div id="site-nav">
