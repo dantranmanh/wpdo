@@ -9,6 +9,8 @@ wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+wp-content/languages/
+wp-content/themes/themebak/
 
 /.htaccess
 /license.txt
