@@ -27,7 +27,7 @@ a:hover,a:focus,a:active {color:#eeeded; }
 #site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; text-transform:uppercase; font:300 25px 'Tahoma', Arial; }
 #site-nav ul{ margin:0; padding:0; }
 #site-nav ul li{ display:block; position:relative; list-style:none; padding:0; line-height:normal; }
-#site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; font-weight:900; color:#eeeded; text-decoration:none; }
+#site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; font-weight:900; color:#eeeded; text-decoration:none;font-size:2.1rem; }
 #site-nav ul li:hover, #site-nav li.current_page_item{background-color:#eb891a; }
 #site-nav ul li a:hover, #site-nav li.current_page_item a{ text-decoration:none; background-color:#eb891a; color:#006a39; }
 /* ----------- Drop Down Menu ------- */
@@ -249,7 +249,8 @@ mark{background-color:transparent !important;}
 	#primary-home {padding-left:68px; }
 	.home #secondary {margin-left:2%; }
 	.home #secondary .widget {margin-right:2%; }
-	#primary {padding:7rem 0 0 5rem; }
+	#secondary .header{max-width:18%; }	
+	#primary {padding:7rem 0 0 5rem; min-width:75%; }
 }
 @media screen and (max-width:960px) and (min-width:768px) {
 	#wrapper{margin:0 auto;}
