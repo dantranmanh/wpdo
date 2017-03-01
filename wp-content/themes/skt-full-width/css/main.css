@@ -10,26 +10,26 @@
 body {font-family:Arial; font-size:12px; color:#aeaeae; }
 .container {width:94.5%; margin:0; }
 #page {position:relative; z-index:999; margin:auto; }
-#wrapper {width:1000px; margin:0 auto; padding:0; position:relative; z-index:99999999; }
-#content {padding:20px; word-wrap:break-word; -ms-word-wrap:break-word; background:url(../images/menu-bg.png); }
+#wrapper {margin:0 auto; padding:0; position:relative; z-index:99999999; }
+#content {padding:20px 20px 3rem 20px; word-wrap:break-word; -ms-word-wrap:break-word; background-color:#006a39; opacity:0.9; border-radius:6px;border:solid 1px #eb891a;color: gold; font-size: 1.6rem; }
 .blog #content {padding-left:30px; }
 .clear{clear:both; }
 /* Links------------------------------------------------- */
 a {color:#86c301; text-decoration:none; outline:none;}
 a:hover,a:focus,a:active {color:#eeeded; }
 /*----------- HEADER ------------*/
-.header{ width:248px; margin:0; padding:0; border-left:1px solid #1b1b1b; border-right:1px solid #1b1b1b; float:left; }
-.header .logo{ width:100%; margin:0; padding:60px 0 30px; background:url(../images/menu-bg.png); text-align:center; }
-.header .logo h1.site-title a{font:700 45px 'Roboto Condensed', Arial; text-decoration:none; }
+.header{ width:248px; margin:0; padding:0; border:1px solid #eb891a; float:left; }
+.header .logo{ width:100%; margin:0; padding:0; background-color:#005399; text-align:center; }
+.header .logo h1.site-title a{font:900 12px Tahoma; text-decoration:none; }
 
 /* NAVIGATION */
 /*.page-template-page-full-width-php #site-nav{display:none;}*/
-#site-nav{ width:100%; margin:0; padding:0 0 60px; background:url(../images/menu-bg.png); text-transform:uppercase; font:300 16px 'Roboto Condensed', Arial; }
+#site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; text-transform:uppercase; font:300 25px 'Tahoma', Arial; }
 #site-nav ul{ margin:0; padding:0; }
-#site-nav ul li{ display:block; position:relative; list-style:none; border-top:1px #2c2d2e solid; border-bottom:1px #040506 solid; padding:0; line-height:normal; }
-#site-nav ul li a{background:url(../images/nav-icon.png) no-repeat 20px center; padding:6px 0 6px 49px; display:block; font-weight:300; color:#eeeded; text-decoration:none; }
-#site-nav ul li:hover, #site-nav li.current_page_item{background:url(../images/menu-hover.png); }
-#site-nav ul li a:hover, #site-nav li.current_page_item a{ text-decoration:none; background-image:url(../images/nav-icon-hover.png); color:#7bb303; }
+#site-nav ul li{ display:block; position:relative; list-style:none; padding:0; line-height:normal; }
+#site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; font-weight:900; color:#eeeded; text-decoration:none;font-size:2.1rem; }
+#site-nav ul li:hover, #site-nav li.current_page_item{background-color:#eb891a; }
+#site-nav ul li a:hover, #site-nav li.current_page_item a{ text-decoration:none; background-color:#eb891a; color:#006a39; }
 /* ----------- Drop Down Menu ------- */
 .noBottomBorder{border-bottom:none !important; }
 .haschild{background:url(../images/menu_sub_icon.png) no-repeat center right; }
@@ -59,14 +59,14 @@ a:hover,a:focus,a:active {color:#eeeded; }
 .nivo-caption a:hover {text-decoration:underline; }
 .nivo-html-caption {display:none; }
 .nivoSlider .slide{width:100%; height:100%; position:fixed; -moz-background-size:cover; -webkit-background-size:cover; -khtml-background-size:cover; background-size:cover; }
-div.slide-title {display:block; background-color:transparent; color:#fff; font:bold 34px "Roboto Condensed", Arial; text-transform:uppercase; text-align:right;}
+div.slide-title {display:block; background-color:transparent; color:#fff; font:bold 34px "Tahoma", Arial; text-transform:uppercase; text-align:right;}
 .home_front_wrap_main{height:100%;}
 div.slide-title span{background:url(../images/transparent_black.png) repeat left top; display:inline-block; padding:10px 15px;}
 div.slide-title a{color:#fff;}
 a div.slide-title{color:#eeeded; text-decoration:none; border:none !important;}
 .nivo-caption a:hover div.slide-title{color:#fff; border:none;}
 /*Homepage --------------------------------------------------*/
-h2#page-title,.archive h1.page-title,.page h1.entry-title {font-size:30.52px; font-family:'Roboto Condensed', Arial; font-weight:lighter; display:inline-block; clear:both; text-transform:uppercase; padding:51px 0 0; color:#eeeded; }
+h2#page-title,.archive h1.page-title,.page h1.entry-title {font-size:30.52px; font-family:'Tahoma', Arial; font-weight:lighter; display:inline-block; clear:both; text-transform:uppercase; padding:12px 0 0; }
 h2#page-title:first-letter,.archive h1.page-title:first-letter,.page h1.entry-title:first-letter {color:#86c301; }
 .article-wrapper {white-space:230px; float:left; display:block; height:230px; }
 .homepage-article {background:#2a2622; padding:10px; width:230px; float:left; margin-right:25px; max-height:220px; word-wrap:break-word; -ms-word-wrap:break-word; }
@@ -81,7 +81,7 @@ h2#page-title:first-letter,.archive h1.page-title:first-letter,.page h1.entry-ti
 /* Floating Details of the Section, which determines the layout is present in the css/layouts folder */
 word-wrap:break-word; -ms-word-wrap:break-word; }
 .single-post {border-bottom:1px dotted #6e5730; padding-bottom:20px; }
-.single-post h1.entry-title {font-size:30.52px; font-family:'Roboto Condensed', Arial; font-weight:lighter; display:inline-block; clear:both; text-transform:uppercase; padding:51px 0 0; color:#eeeded; }
+.single-post h1.entry-title {font-size:30.52px; font-family:Tahoma, Arial;; font-weight:lighter; display:inline-block; clear:both; text-transform:uppercase; padding:51px 0 0; color:#eeeded; }
 .single-post h1.entry-title:first-letter{ color:#86c301; }
 .single-post h1.entry-title a {text-decoration:none; }
 .single-post .featured-image-single {width:80%; margin:auto; clear:both; margin-bottom:15px; }
@@ -94,9 +94,9 @@ word-wrap:break-word; -ms-word-wrap:break-word; }
 .postmeta .post-date{ margin-top:-1px; padding:7px 11px 0 32px; background:url(../images/date.png) no-repeat; height:30px; color:#eeeded; float:left; }
 .postmeta .post-comment{ background:url(../images/comment.png) no-repeat; height:30px; margin:-1px 0 0; padding:6px 11px 0 32px; color:#eeeded; float:right; }
 /* Blog Page-------------------------------------------------------*/
- .blog-post{ width:406px; margin:0; padding:0; float:left; }
-h2.entry-title{ font:300 21.36px 'Roboto Condensed', Arial; padding:20px 0; }
-h2.entry-title a{ font:300 21.36px 'Roboto Condensed', Arial; color:#eeeded; }
+ .blog-post{margin:0; padding:0; float:left; }
+h2.entry-title{ font:300 21.36px Tahoma, Arial;; padding:20px 0; }
+h2.entry-title a{ font:300 21.36px Tahoma, Arial;; color:#eeeded; }
 .post-thumb{ margin:0; padding:0; position:relative; }
 .post-thumb img{ width:398px; height:175px; border:4px solid #0e0e10; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; margin-top:-41px; }
 .read-more{ display:inline; margin:0; padding:0; }
@@ -104,7 +104,7 @@ h2.entry-title a{ font:300 21.36px 'Roboto Condensed', Arial; color:#eeeded; }
 .read-more a:hover{color:#7BB302; }
 .entry-summary p{ display:inline; line-height:22px; }
 /* Sidebar-------------------------------------------------------*/
-#sidebar, #sidebar-contact{ width:229px; float:right; }
+#sidebar, #sidebar-contact{ text-align: center; }
 #sidebar{margin:0; padding:0;}
 #sidebar-contact{margin:0; padding:58px 0 0;}
 #sidebar-contact h1.widget-title{margin-bottom:15px;}
@@ -116,15 +116,15 @@ h2.entry-title a{ font:300 21.36px 'Roboto Condensed', Arial; color:#eeeded; }
 .recent-post .post-box .post-text{ width:100%; margin:0; padding:0; }
 .recent-post .post-box .post-text a{ display:inline-block; color:#7BB302; font-size:11px; }
 .recent-post .post-box:last-child{ border:none; }
-h1.widget-title{font:300 22.89px 'Roboto Condensed', Arial; color:#eeeded; text-transform:uppercase; border-bottom:1px dashed #606266; padding-bottom:20px; }
+h1.widget-title{font:300 22.89px Tahoma, Arial; text-transform:uppercase; border-bottom:1px dashed #606266; padding-bottom:20px; }
 aside{ margin-top:56px; }
 aside ul{ margin:0; padding:0; list-style:none; }
 aside ul li{ margin:0; padding:8px 0; }
-aside ul li a{color:#eeeded; background:url(../images/list-arrow.png) no-repeat scroll 0 3px; padding-left:19px; }
-aside ul li a:hover{color:#7BB302; background:url(../images/list-arrow-hover.png) no-repeat scroll 0 3px; padding-left:19px; }
+aside ul li a{background:url(../images/list-arrow.png) no-repeat scroll 0 3px; padding-left:19px; }
+aside ul li a:hover{color:#eb891a; background:url(../images/list-arrow-hover.png) no-repeat scroll 0 3px; padding-left:19px; }
 .widget ul{ list-style:none; margin:0; padding:0; }
-.widget ul li a{color:#eeeded; background:url(../images/list-arrow.png) no-repeat scroll 0 3px; padding-left:19px; }
-.widget ul li a:hover{color:#7BB302; background:url(../images/list-arrow-hover.png) no-repeat scroll 0 3px; padding-left:19px; }
+.widget ul li a{color:gold; background:url(../images/list-arrow.png) no-repeat scroll 0 3px; padding-left:19px; }
+.widget ul li a:hover{color:#eb891a; background:url(../images/list-arrow-hover.png) no-repeat scroll 0 3px; padding-left:19px; }
 #secondary a,#footer-sidebar a {text-decoration:none; }
 #secondary .widget-title,#footer-sidebar .widget-title {background:#100d0a; color:#7e5b20; padding:10px; font-size:18px; margin-bottom:10px; }
 #secondary .widget_tag_cloud a,#footer-sidebar .widget_tag_cloud a {font-size:14px !important; background:#5e5340; color:#d5be95; padding:4px 8px; text-decoration:none; margin-top:4px; display:inline-block; }
@@ -145,12 +145,12 @@ aside ul li a:hover{color:#7BB302; background:url(../images/list-arrow-hover.png
 /* Full width Template footer----------------------------------------------*/
 .full-width {width:100% !important; padding:10px; }
 /* Colophon */
-#colophon {background:#000; opacity:0.9; color:#eeeded; padding:20px; }
+#colophon {background:transparent; padding:20px;height: 60rem; }
 .page-template-page-full-width-php .foot_col_container{width:700px; margin:0 auto;}
-#colophon h2{font:300 19.84px 'Roboto Condensed', Arial; color:#eeeded; border-bottom:1px solid #242425; text-transform:uppercase; padding-bottom:15px; margin-bottom:15px; }
+#colophon h2{font:300 19.84px Tahoma, Arial;; color:#eeeded; border-bottom:1px solid #242425; text-transform:uppercase; padding-bottom:15px; margin-bottom:15px; }
 #colophon .site-info {float:left; }
 #colophon #footertext {float:right; }
-h3.company-title{font:400 18px 'Roboto Condensed', Arial; }
+h3.company-title{font:400 18px Tahoma, Arial;; }
 h3.company-title:first-letter{color:#7bb302; }
 .footer-menu{ width:200px; margin:0; padding:0; float:left; }
 .footer-menu ul{ list-style:none; margin:0; }
@@ -179,7 +179,7 @@ h3.company-title:first-letter{color:#7bb302; }
 /* Archive & Search Pages---------------------------------------- */
 .search .entry-title a,.archive .entry-title a {font-size:x-large; text-decoration:none; }
 .search article,.archive article {padding:15px; }
-.search h1.entry-title,.archive h1.entry-title {clear:both; color:#EEEDED; display:inline-block; font-family:'Roboto Condensed', Arial; font-size:30.52px; font-weight:lighter; padding:51px 0 0; }
+.search h1.entry-title,.archive h1.entry-title {clear:both; color:#EEEDED; display:inline-block; font-family:Tahoma, Arial;; font-size:30.52px; font-weight:lighter; padding:51px 0 0; }
 .search h1.entry-title:first-letter,.archive h1.entry-title:first-letter {color:#86C301; }
 .search .page-title {font-size:x-large; border-bottom:solid 1px black; display:inline-block; margin-bottom:15px; }
 .category .entry-title a {font-size:normal; }
@@ -206,7 +206,7 @@ h3.company-title:first-letter{color:#7bb302; }
 .single article h4,.page article h4 {font-size:18px; }
 .single article h5,.page article h5 {font-size:16px; }
 .single article h6,.page article h6 {font-size:14px; }
-.single article blockquote,.page article blockquote {background:#000; padding:10px; margin-bottom:10px; padding-bottom:1px; font-family:'Roboto Condensed', Arial; }
+.single article blockquote,.page article blockquote {background:#005399; padding:10px; margin-bottom:10px; padding-bottom:1px; font-family:Tahoma, Arial;; }
 .single article table td,.page article table td,.single article table th,.page article table th {padding:5px;}
 .single article table th,.page article table th {border-bottom:solid 3px #100d0a; }
 .single article ul ul,.page article ul ul {list-style:circle; }
@@ -249,29 +249,32 @@ mark{background-color:transparent !important;}
 	#primary-home {padding-left:68px; }
 	.home #secondary {margin-left:2%; }
 	.home #secondary .widget {margin-right:2%; }
+	#secondary .header{max-width:18%; }	
+	#primary {padding:7rem 0 0 5rem; min-width:75%; }
 }
 @media screen and (max-width:960px) and (min-width:768px) {
-	#wrapper{width:90%; margin:0 auto;}
+	#wrapper{margin:0 auto;}
 	.container{}
 	#secondary{ width:30% !important; float:left !important;}
-	#primary{ width:60% !important; float:right !important;}
+	#primary{ width:58% !important; float:left;}
 	#nav-wrapper {width:729.5999999999999px; }
 	#primary-home {padding-left:88px; }
 	#footer-sidebar .footer-column {width:70%; margin:auto; float:none; }
-	#primary {width:95%; float:none; }
+	#primary {width:95%; padding:7rem 0 0 5rem; }
 	#secondary {width:70%; float:none; margin:auto; }
 	#colophon{ width:94.5%;}
 	.footer-bottom{ width:98%;}
 }
 @media screen and (max-width:768px) and (min-width:480px) {
-	#wrapper{width:90%; margin:0 auto;}
+	#wrapper{width:90%; margin:0 auto;float:left; }
 	/*.container {width:456px; }*/
 	.main-navigation {top:0px; }
-	#primary {width:95%; float:none; }
-	#secondary {width:95%; padding-left:10px; }
+	.header {width:100%; }
+	#header-bottom-shape {margin-left:57px; }
+	#primary {width:58%; float:left;  padding:4rem 0 0 4rem; }
+	#secondary {width:30%; float:left; }
 	.pagination {margin-left:-50px; }
-	.site-title a {font-size:x-large; }
-	.site-description {font-size:x-small; }
+	.site-title a {font-size:x-large; }	
 	#primary-home {padding-left:88px; }
 	.page-template-page-full-width-php #secondary .widget,.home #secondary .widget {width:456px; }
 	#colophon #footertext {float:left; }
@@ -293,8 +296,7 @@ mark{background-color:transparent !important;}
 	.header{ margin:0 auto;}
 	#secondary .widget {width:95%; }
 	.main-navigation {margin-top:30px; }
-	.site-title a {font-size:x-large; }
-	.site-description {font-size:x-small; }
+	.site-title a {font-size:x-large; }	
 	#primary-home {padding-left:30px; }
 	.page-template-page-full-width-php #secondary .widget,.home #secondary .widget {width:304px; }
 	#colophon #footertext {float:left; }

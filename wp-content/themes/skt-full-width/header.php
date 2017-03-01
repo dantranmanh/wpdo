@@ -80,7 +80,7 @@ $post_page = get_option('page_for_posts');
 							<?php bloginfo( 'name' ); ?>
                         <?php } ?>
                     </a></h1>
-                    <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2><br />
+                    <div class="site-description"><?php bloginfo( 'description' ); ?></div>
                 </div>
               
                 <div id="site-nav">
@@ -89,11 +89,6 @@ $post_page = get_option('page_for_posts');
                        <?php wp_nav_menu( array('theme_location'  => 'primary' ) ); ?>
                      </nav> 
                 </div><!-- site-nav -->
-                <div class="header-bottom">
-                    <div id="header-bottom-shape">
-                    </div><!-- header-bottom-shape2 -->
-                </div><!-- header-bottom -->
-                    
             </div><!-- header -->
         </div><!-- secondary -->
           
