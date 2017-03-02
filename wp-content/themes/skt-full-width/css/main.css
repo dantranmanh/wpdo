@@ -6,7 +6,7 @@
 /* Basic Containers -------------------------------------------------*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic); 
-
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 body {font-family:Arial; font-size:12px; color:#aeaeae; }
 .container {width:94.5%; margin:0; }
 #page {position:relative; z-index:999; margin:auto; }
@@ -20,15 +20,15 @@ a {color:#86c301; text-decoration:none; outline:none;}
 a:hover,a:focus,a:active {color:#eeeded; }
 /*----------- HEADER ------------*/
 .header{ width:248px; margin:0; padding:0; border:1px solid #eb891a; float:left; }
-.header .logo{ width:100%; margin:0; padding:0; background-color:#005399; text-align:center; }
+.header .logo{ width:100%; margin:0; padding:0; background-color:#005399; text-align:center;font-family: 'Dancing Script', cursive; }
 .header .logo h1.site-title a{font:900 12px Tahoma; text-decoration:none; display:block; }
 
 /* NAVIGATION */
 /*.page-template-page-full-width-php #site-nav{display:none;}*/
-#site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; text-transform:uppercase; font:300 25px 'Tahoma', Arial; }
+#site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; font:300 25px 'Tahoma', Arial; }
 #site-nav ul{ margin:0; padding:0; }
 #site-nav ul li{ display:block; position:relative; list-style:none; padding:0; line-height:normal; }
-#site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; font-weight:900; color:#eeeded; text-decoration:none;font-size:2.1rem; }
+#site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; color:#eeeded; text-decoration:none;font-size:2.1rem; }
 #site-nav ul li:hover, #site-nav li.current_page_item{background-color:#eb891a; }
 #site-nav ul li a:hover, #site-nav li.current_page_item a{ text-decoration:none; background-color:#eb891a; color:#006a39; }
 /* ----------- Drop Down Menu ------- */
