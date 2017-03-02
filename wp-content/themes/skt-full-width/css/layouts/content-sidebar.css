@@ -16,4 +16,4 @@ Layout: Content-Sidebar
 .haschild{background:url(../../images/menu_sub_icon_rtl.png) no-repeat left center !important; }
 #site-nav ul li:hover ul li a{background-position:160px center !important; padding-right:30px !important; padding-left:10px !important;}
 #nav, #secondary{ font-family: 'Open Sans Condensed', sans-serif;}
-.site-description {font-size:20px; font-style:italic;}
+.site-description {font-size:20px; font-style:italic;background-color:#006a39; }

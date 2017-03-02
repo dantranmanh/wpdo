@@ -21,7 +21,7 @@ a:hover,a:focus,a:active {color:#eeeded; }
 /*----------- HEADER ------------*/
 .header{ width:248px; margin:0; padding:0; border:1px solid #eb891a; float:left; }
 .header .logo{ width:100%; margin:0; padding:0; background-color:#005399; text-align:center; }
-.header .logo h1.site-title a{font:900 12px Tahoma; text-decoration:none; }
+.header .logo h1.site-title a{font:900 12px Tahoma; text-decoration:none; display:block; }
 
 /* NAVIGATION */
 /*.page-template-page-full-width-php #site-nav{display:none;}*/
