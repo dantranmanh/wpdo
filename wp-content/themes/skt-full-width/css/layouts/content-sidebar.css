@@ -4,9 +4,10 @@ Layout: Content-Sidebar
 */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 #primary {
-	width: 66%;
+	width: 55%;
 	float: right;
-	padding:8rem 2rem 0 8rem;
+	padding:8rem 0;
+	margin:0 16.5rem 3.5rem 4.5rem;
 }
 .nivo-caption{right:inherit; left:13%; text-align:left !important;}
 #site-nav ul {text-align:left;}
