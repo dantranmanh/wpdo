@@ -19,13 +19,13 @@ body {font-family:Arial; font-size:12px; color:#aeaeae; }
 a {color:#86c301; text-decoration:none; outline:none;}
 a:hover,a:focus,a:active {color:#eeeded; }
 /*----------- HEADER ------------*/
-.header{ width:248px; margin:0; padding:0; border:1px solid #eb891a; float:left; }
+.header{ width:22rem; margin:0; padding:0; border:1px solid #eb891a; float:left; }
 .header .logo{ width:100%; margin:0; padding:0; background-color:#005399; text-align:center;font-family: 'Dancing Script', cursive; }
 .header .logo h1.site-title a{font:900 12px Tahoma; text-decoration:none; display:block; }
 
 /* NAVIGATION */
 /*.page-template-page-full-width-php #site-nav{display:none;}*/
-#site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; font:300 25px 'Tahoma', Arial; }
+#site-nav{ width:100%; margin:0; padding:0 0 60px; background-color:#005399; }
 #site-nav ul{ margin:0; padding:0; }
 #site-nav ul li{ display:block; position:relative; list-style:none; padding:0; line-height:normal; }
 #site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; color:#eeeded; text-decoration:none;font-size:3rem; }
@@ -245,13 +245,18 @@ mark{background-color:transparent !important;}
 /* Responsive Design Begins Below---------------------------------------------------*/
 @media screen and (max-width:1100px) and (min-width:960px) {
 	#wrapper{min-width:960px;}
-	.container{}
 	#nav-wrapper {width:912px; }
+	
+	.site-description {font-size:1.7rem; padding-bottom:4px; }
+	
 	#primary-home {padding-left:68px; }
-	.home #secondary {margin-left:2%; }
+	#primary {padding:7rem 0 0 0; min-width:50%; margin: 0 7.5rem 7.5rem 7.5rem; }
+	
 	.home #secondary .widget {margin-right:2%; }
-	#secondary .header{max-width:18%; }	
-	#primary {padding:7rem 0 0 5rem; min-width:75%; }
+	#secondary .header{max-width:18%; }
+	#secondary .header{max-width:18%; }
+	
+	#site-nav ul li a{padding: 6px!important; }	
 }
 @media screen and (max-width:960px) and (min-width:768px) {
 	#wrapper{margin:0 auto;}

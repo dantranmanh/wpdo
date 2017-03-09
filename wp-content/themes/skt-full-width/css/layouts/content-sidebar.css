@@ -5,15 +5,15 @@ Layout: Content-Sidebar
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 #primary {
 	width: 66%;
-	float: left;
-	padding:8rem 0 0 8rem;
+	float: right;
+	padding:8rem 2rem 0 8rem;
 }
 .nivo-caption{right:inherit; left:13%; text-align:left !important;}
 #site-nav ul {text-align:left;}
 #site-nav ul li:hover ul{right:248px !important;}
 #site-nav ul li:hover ul li:hover ul{display:block; right:180px !important;}
-#site-nav ul li a{background-position:220px center !important; padding:6px 49px 6px 20px !important;}
+#site-nav ul li a{background-position:220px center !important; padding:6px 15px 6px 34px !important;}
 .haschild{background:url(../../images/menu_sub_icon_rtl.png) no-repeat left center !important; }
 #site-nav ul li:hover ul li a{background-position:160px center !important; padding-right:30px !important; padding-left:10px !important;}
 #nav, #secondary{ font-family: 'Dancing Script', cursive;}
-.site-description {font-size:19px; font-style:italic;background-color:#006a39;font-weight: bold; color:yellow; line-height: 4.5rem; }
+.site-description {font-size:2rem; background-color:#006a39; color:yellow; line-height: 2.5rem;padding-bottom:3px; }
