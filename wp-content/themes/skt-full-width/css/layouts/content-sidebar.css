@@ -7,14 +7,15 @@ Layout: Content-Sidebar
 	width: 55%;
 	float: right;
 	padding:8rem 0;
-	margin:0 16.5rem 3.5rem 4.5rem;
+	margin:0 18% 3.5rem 0;
 }
 .nivo-caption{right:inherit; left:13%; text-align:left !important;}
 #site-nav ul {text-align:left;}
 #site-nav ul li:hover ul{right:248px !important;}
 #site-nav ul li:hover ul li:hover ul{display:block; right:180px !important;}
-#site-nav ul li a{background-position:220px center !important; padding:6px 15px 6px 34px !important;}
+#site-nav ul li a{background-position:220px center !important; padding:6px 15px 6px 1rem !important;}
 .haschild{background:url(../../images/menu_sub_icon_rtl.png) no-repeat left center !important; }
 #site-nav ul li:hover ul li a{background-position:160px center !important; padding-right:30px !important; padding-left:10px !important;}
 #nav, #secondary{ font-family: 'Dancing Script', cursive;}
-.site-description {font-size:2rem; background-color:#006a39; color:yellow; line-height: 2.5rem;padding-bottom:3px; }
+#secondary .mobile_nav{ font-family: 'Arial';}
+.site-description {font-size:36%; background-color:#006a39; color:yellow; line-height: 1.2rem;padding-bottom:0.3rem; margin: 1.3rem 0; -webkit-transform: scale(1, 3); }

@@ -84,7 +84,7 @@ $post_page = get_option('page_for_posts');
                 </div>
               
                 <div id="site-nav">
-                    <div class="mobile_nav"><?php _e('Menu...','skt-full-width'); ?></div>
+                    <div class="mobile_nav"><span><span><?php _e('Menu...','skt-full-width'); ?></span></span></div>
                      <nav id="nav">
                        <?php wp_nav_menu( array('theme_location'  => 'primary' ) ); ?>
                      </nav> 
