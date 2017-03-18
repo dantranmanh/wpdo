@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 body {font-family:Arial; font-size:34px; color:#aeaeae; }
 .container {width:94.5%; margin:0; }
+.menu-bds {display:block; }
 #page {position:relative; z-index:999; margin:auto; }
 #wrapper {margin:0 auto; padding:0; position:relative; z-index:99999999; }
 #content {padding:20px 20px 3rem 20px; word-wrap:break-word; -ms-word-wrap:break-word; background-color:#006a39; opacity:0.9; border-radius:6px;border:solid 1px #eb891a;color: gold; font-size: 1.6rem; }
@@ -19,8 +20,8 @@ body {font-family:Arial; font-size:34px; color:#aeaeae; }
 a {color:#86c301; text-decoration:none; outline:none;}
 a:hover,a:focus,a:active {color:#eeeded; }
 /*----------- HEADER ------------*/
-.header{ width:11%; margin:0; padding:0; border:1px solid #eb891a; float:left; }
-.header .logo{ width:100%; margin:0; padding:0; background-color:#005399; text-align:center;font-family: 'Dancing Script', cursive; }
+.header{ width:20%; margin:0; padding:0; border:1px solid #eb891a; float:left; }
+.header .logo{ width:100%; margin:0; padding:0; background-color:#006a39; text-align:center;font-family: 'Dancing Script', cursive; }
 .header .logo h1.site-title a{font:900 12px Tahoma; text-decoration:none; display:block; }
 
 /* NAVIGATION */
@@ -31,7 +32,7 @@ a:hover,a:focus,a:active {color:#eeeded; }
 #site-nav ul li a{background-color:#005399; padding:6px 0 6px 49px; display:block; color:#eeeded; text-decoration:none;}
 #site-nav ul li:hover, #site-nav li.current_page_item{background-color:#eb891a; }
 #site-nav ul li a:hover, #site-nav li.current_page_item a{ text-decoration:none; background-color:#eb891a; color:#006a39; }
-#site-nav ul li a {font-size:57%;}
+#site-nav ul li a {font-size:2.8rem;}
 /* ----------- Drop Down Menu ------- */
 .noBottomBorder{border-bottom:none !important; }
 .haschild{background:url(../images/menu_sub_icon.png) no-repeat center right; }
@@ -255,8 +256,8 @@ mark{background-color:transparent !important;}
 	.home #secondary .widget {margin-right:2%; }
 	#secondary .header{max-width:90%; }
 	
-	#site-nav ul li a{padding: 6px!important; font-size:54%; }	
-	 .site-description{font-size:30%;}
+	#site-nav ul li a{padding: 6px!important;}	
+	.site-description{font-size:30%;}
 }
 @media screen and (max-width:960px) and (min-width:768px) {
 	#wrapper{margin:0 auto;}	
@@ -265,7 +266,7 @@ mark{background-color:transparent !important;}
 	#colophon{ width:94.5%;}
 	.footer-bottom{ width:98%;}
 	
-	#site-nav ul li a{padding: 6px!important; font-size:42%; }	
+	#site-nav ul li a{padding: 6px!important;}	
 	 .site-description{font-size:24%;}
 }
 @media screen and (max-width:768px) and (min-width:480px) {
@@ -282,7 +283,6 @@ mark{background-color:transparent !important;}
 	#site-nav ul{ text-align:center; font-size:3rem; }
 	#site-nav ul li a{font-size:3rem; }
 	
-	.site-description{font-size:85%; line-height:3.2rem; padding-bottom:0.6rem; margin:3.3rem 0; }
 	.pagination {margin-left:-50px; }
 	.site-title a {font-size:x-large; }		
 	
@@ -315,12 +315,13 @@ mark{background-color:transparent !important;}
 	#sidebar{width:100%; float:none; padding-top:30px;}
 	.blog-post{float:none;}
 	/*.container {width:320px; }*/
-	#primary {width:65%; float:right;margin: 0 19% 3.5rem 0; padding-top:0; }
+	#primary {width:67%; float:right;margin: 0 16% 3.5rem 0; padding-top:0; }
 	#secondary {width:68%; float:right;margin: 0 16% 0 0; padding-top:0; padding:8rem 0 8rem 0;}
 	#secondary .widget {width:95%; }
 	#main,#main h1{ font-size: 1.7rem; }
 	.mobile_nav{ text-align:center; }
-	.site-description{font-size:2rem; line-height:2rem; padding-bottom:0.6rem; margin:2.4rem 0; }
+	.site-description{font-size:30%;}
+	
 	#site-nav ul li a{ text-align:center; font-size:3rem; }
 	.blog-post{ width:auto;}
 	.header{ margin:0 auto;}
@@ -337,3 +338,192 @@ mark{background-color:transparent !important;}
 	#secondary.home_front_wrap{margin-bottom:200px;}
 	.container{ width:auto;}
 }
+
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+
+
+
+
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.header{ max-width:100%!important;width:100%; }
+	.header .logo img {width:100%; }
+	#wrapper{width:320px !important;}
+	#sidebar{width:100%; float:none; padding-top:30px;}
+	.blog-post{float:none;}
+	/*.container {width:320px; }*/
+	#primary {width:118rem; float:right;margin: 0 -26rem 3.5rem 0; padding-top:0; }
+	#secondary {width:118rem; float:right;margin: 0 -26rem 0 0; padding-top:0; padding:8rem 0 8rem 0;}
+	#secondary .widget {width:95%; }
+	#main,#main h1{ font-size: 2.7rem; }
+	.mobile_nav{ text-align:center; }
+	.site-description{font-size:5rem; -webkit-transform: scale(1.9,3);line-height:17rem; }
+	
+	#site-nav ul li a{ text-align:center; font-size:10rem; }
+	.blog-post{ width:auto;}
+	.header{ margin:0 auto;}
+	
+	.main-navigation {margin-top:30px; }
+	.site-title a {font-size:x-large; }	
+	#primary-home {padding-left:30px; }
+	.page-template-page-full-width-php #secondary .widget,.home #secondary .widget {width:304px; }
+	#colophon #footertext {float:left; }
+	div.slide-title {font-size:12px; display:block; }
+	/*div.slide-description {display:none; }*/
+	.nivo-caption {max-width:320px; min-width:50px; }
+	#footer-sidebar .footer-column {width:80%; margin:auto; }
+	#secondary.home_front_wrap{margin-bottom:200px;}
+	.container{ width:auto;}
+	 
+	.mobile_nav {zoom:209%; }
+	.mobile_nav,.main-navigation.toggled .nav-menu {display:block!important; color:#eb891a; font-weight:bold; text-transform:uppercase; font-size:4rem ; margin-bottom:3rem; position:relative; }
+	.mobile_nav:before {content:url('../images/menu.png'); height:0; width:0px; margin-right:20px; position:relative; }
+	nav {display:none; }	
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	#primary {width:140rem; float:right;margin: 0 -61rem 3.5rem 0; padding-top:0; }
+	#secondary {width:140rem; float:right;margin: 0 -61rem 0 0; padding-top:0; padding:8rem 0 8rem 0;}
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	#primary {width:89rem; float:right;margin: 0 -12rem 3.5rem 0; padding-top:0; }
+	#secondary {width:89rem; float:right;margin: 0 -12rem 0 0; padding-top:0; padding:8rem 0 8rem 0;}
+	.site-description{font-size:4rem; }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+
+
+
+
+
+
+
+

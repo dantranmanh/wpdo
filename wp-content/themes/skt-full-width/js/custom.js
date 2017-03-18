@@ -28,9 +28,12 @@ var adjustMenu = function() {
 			jQuery("nav#nav").show();
 		}
 		jQuery("nav#nav li").unbind('mouseenter mouseleave');
+		jQuery("nav#nav").addClass('menu-hide');
+		jQuery("nav#nav").removeClass(".menu-show");
 	} else {
 		jQuery(".mobile_nav").css("display", "none");
-		jQuery("nav#nav").show();
+		jQuery("nav#nav").addClass('menu-show');
+		jQuery("nav#nav").removeClass(".menu-hide");
 		jQuery("nav#nav li").removeClass("hover");
 		jQuery("nav#nav li a").unbind('click');
 		jQuery("nav#nav li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
