@@ -236,7 +236,6 @@ input::-moz-placeholder, textarea::-moz-placeholder{color:#999;}
 input:-ms-input-placeholder, textarea:-ms-input-placeholder{color:#999;}
 .errorbox{padding:10px 0; color:#c00;}
 .successbox{padding:10px 0; color:#0a0;}
-#secondary.home_front_wrap{width:auto;}
 
 /* Ecommerce */
 .shop_table tr th{border-bottom:1px solid #FFF !important;}
