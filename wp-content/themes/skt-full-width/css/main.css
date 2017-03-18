@@ -490,35 +490,6 @@ mark{background-color:transparent !important;}
 
 }
 
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-	#primary {width:89rem; float:right;margin: 0 -12rem 3.5rem 0; padding-top:0; }
-	#secondary {width:89rem; float:right;margin: 0 -12rem 0 0; padding-top:0; padding:8rem 0 8rem 0;}
-	.site-description{font-size:4rem; }
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-}
-
 
 
 
