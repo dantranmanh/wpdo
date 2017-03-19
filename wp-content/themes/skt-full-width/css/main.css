@@ -244,6 +244,7 @@ mark{background-color:transparent !important;}
 
 /*Slider image */
 .mbBgndGallery img{margin:0!important;}
+.font-on-page{font-size:18pt; }
 
 /* Responsive Design Begins Below---------------------------------------------------*/
 @media screen and (max-width:1100px) and (min-width:960px) {
@@ -471,6 +472,7 @@ mark{background-color:transparent !important;}
 	.entry{padding:0 4rem; }
     .page-content, .entry-content, .entry-summary{ line-height: }
 	article .entry-header h1, article .entry-content p{line-height:6rem; font-size:6rem;}
+	.font-on-page{font-size:6rem; }
 
 /* Portrait */
 @media only screen 
