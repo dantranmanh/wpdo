@@ -468,7 +468,9 @@ mark{background-color:transparent !important;}
 	.mobile_nav,.main-navigation.toggled .nav-menu {display:block!important; color:#eb891a; font-weight:bold; text-transform:uppercase; font-size:4rem ; margin-bottom:3rem; position:relative; }
 	.mobile_nav:before {content:url('../images/menu.png'); height:0; width:0px; margin-right:20px; position:relative; }
 	nav {display:none; }	
-}
+	.entry{padding:0 4rem; }
+    .page-content, .entry-content, .entry-summary{ line-height: }
+	article .entry-header h1, article .entry-content p{line-height:6rem; font-size:6rem;}
 
 /* Portrait */
 @media only screen 
