@@ -471,6 +471,7 @@ mark{background-color:transparent !important;}
 	.page-content, .entry-content, .entry-summary, article .entry-header h1, article .entry-content p, .font-on-page{line-height:8rem; font-size:6rem;}
 	#main .blog-post article{padding:0 1rem 0 7rem; }
 	.mbBgndGallery img{max-width:300%; height:100%!important; transform: scale(2,2)!important; }
+	.logo .site-title img{height:29rem; }
 	/**home page **/
 	.home #secondary{width:22rem;float:left; }
 	.home .site-description{font-size:1rem;-webkit-transform:scale(1.9,4); line-height: 5rem; }
