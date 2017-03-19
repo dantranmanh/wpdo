@@ -8,6 +8,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic); 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 body {font-family:Arial; font-size:34px; color:#aeaeae; }
+#main article{padding: 0 6rem; }
 .container {width:94.5%; margin:0; }
 .menu-bds {display:block; }
 #page {position:relative; z-index:999; margin:auto; }
@@ -245,6 +246,7 @@ mark{background-color:transparent !important;}
 /*Slider image */
 .mbBgndGallery img{margin:0!important;}
 .font-on-page{font-size:18pt; }
+
 
 /* Responsive Design Begins Below---------------------------------------------------*/
 @media screen and (max-width:1100px) and (min-width:960px) {
