@@ -446,7 +446,7 @@ mark{background-color:transparent !important;}
 	#secondary {width:118rem; float:right;margin: 0 -26rem 0 0; padding-top:0; padding:8rem 0 8rem 0;}
 	#secondary .widget {width:95%; }
 	#main,#main h1{ font-size: 6rem; }
-	.mobile_nav{ text-align:center; }
+	.mobile_nav{ text-align:left; }
 	.site-description{font-size:5rem; -webkit-transform: scale(1.9,3);line-height:17rem; }
 	
 	#site-nav ul li a{ text-align:center; font-size:10rem; }
@@ -454,9 +454,7 @@ mark{background-color:transparent !important;}
 	.header{ margin:0 auto;}
 	
 	.main-navigation {margin-top:30px; }
-	.site-title a {font-size:x-large; }	
-	#primary-home {padding-left:30px; }
-	.page-template-page-full-width-php #secondary .widget,.home #secondary .widget {width:304px; }
+	.site-title a {font-size:x-large; }		
 	#colophon #footertext {float:left; }
 	div.slide-title {font-size:12px; display:block; }
 	/*div.slide-description {display:none; }*/
@@ -466,13 +464,21 @@ mark{background-color:transparent !important;}
 	.container{ width:auto;}
 	 
 	.mobile_nav {zoom:209%; }
-	.mobile_nav,.main-navigation.toggled .nav-menu {display:block!important; color:#eb891a; font-weight:bold; text-transform:uppercase; font-size:4rem ; margin-bottom:3rem; position:relative; }
+	.mobile_nav,.main-navigation.toggled .nav-menu {display:block!important; color:#eb891a; font-weight:bold; text-transform:uppercase; font-size:4rem ; position:relative; padding:6rem 0 0 9rem; }
 	.mobile_nav:before {content:url('../images/menu.png'); height:0; width:0px; margin-right:20px; position:relative; }
 	nav {display:none; }	
 	.entry{padding:0 4rem; }
 	.page-content, .entry-content, .entry-summary, article .entry-header h1, article .entry-content p, .font-on-page{line-height:8rem; font-size:6rem;}
 	#main .blog-post article{padding:0 1rem 0 7rem; }
 	.mbBgndGallery img{max-width:300%; height:100%!important; }
+	/**home page **/
+	.home #secondary{width:22rem;float:left; }
+	.home .site-description{font-size:1rem;-webkit-transform:scale(1.9,4); line-height: 5rem; }
+	.home .mobile_nav{zoom:95%;margin-bottom:0;padding:3rem 0 0 1rem; }
+	.home #site-nav ul li a{font-size:4rem; }
+	.home #nav{padding-top:3rem; }
+}
+	
 
 /* Portrait */
 @media only screen 
