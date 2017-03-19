@@ -444,7 +444,7 @@ mark{background-color:transparent !important;}
 	#primary {width:118rem; float:right;margin: 0 -26rem 3.5rem 0; padding-top:0; }
 	#secondary {width:118rem; float:right;margin: 0 -26rem 0 0; padding-top:0; padding:8rem 0 8rem 0;}
 	#secondary .widget {width:95%; }
-	#main,#main h1{ font-size: 2.7rem; }
+	#main,#main h1{ font-size: 6rem; }
 	.mobile_nav{ text-align:center; }
 	.site-description{font-size:5rem; -webkit-transform: scale(1.9,3);line-height:17rem; }
 	
