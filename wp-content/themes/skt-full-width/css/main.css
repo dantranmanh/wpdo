@@ -478,6 +478,7 @@ mark{background-color:transparent !important;}
 	.home .mobile_nav{zoom:95%;margin-bottom:0;padding:3rem 0 0 1rem; }
 	.home #site-nav ul li a{font-size:4rem; }
 	.home #nav{padding-top:3rem; }
+	.home .logo .site-title img{height:100%; }
 }
 	
 
