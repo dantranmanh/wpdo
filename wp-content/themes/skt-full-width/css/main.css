@@ -470,9 +470,7 @@ mark{background-color:transparent !important;}
 	.mobile_nav:before {content:url('../images/menu.png'); height:0; width:0px; margin-right:20px; position:relative; }
 	nav {display:none; }	
 	.entry{padding:0 4rem; }
-    .page-content, .entry-content, .entry-summary{ line-height:6rem; }
-	article .entry-header h1, article .entry-content p{line-height:6rem; font-size:6rem;}
-	.font-on-page{font-size:6rem; }
+	.page-content, .entry-content, .entry-summary, article .entry-header h1, article .entry-content p, .font-on-page{line-height:8rem; font-size:6rem;}
 	#main .blog-post article{padding:0 1rem 0 7rem; }
 
 /* Portrait */
