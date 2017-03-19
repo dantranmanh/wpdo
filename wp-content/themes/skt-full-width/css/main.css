@@ -473,6 +473,7 @@ mark{background-color:transparent !important;}
     .page-content, .entry-content, .entry-summary{ line-height:6rem; }
 	article .entry-header h1, article .entry-content p{line-height:6rem; font-size:6rem;}
 	.font-on-page{font-size:6rem; }
+	#main .blog-post article{padding:0 1rem 0 7rem; }
 
 /* Portrait */
 @media only screen 
